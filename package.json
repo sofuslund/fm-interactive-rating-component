@@ -1,29 +1,17 @@
 {
-    "name": "project",
-    "version": "0.1.0",
-    "description": "interactive-rating-component",
-    "main": "public/index.html",
-    "author": "5t3ph",
+    "name": "interactive-rating-component",
+    "version": "1.0.0",
     "scripts": {
-        "build:sass": "sass  --no-source-map sass:public/css",
-        "copy:images": "copyfiles images/* public",
-        "copy:html": "copyfiles *.html public",
-        "copy": "npm-run-all --parallel copy:*",
-        "watch:images": "onchange \"images/*\" -- npm run copy:images",
-        "watch:html": "onchange \"*.html\" -- npm run copy:html",
-        "watch:sass": "sass  --no-source-map --watch sass:public/css",
-        "watch": "npm-run-all --parallel watch:*",
-        "serve": "browser-sync start --server public --files public",
-        "start": "npm-run-all copy --parallel watch serve",
-        "build": "npm-run-all copy:html build:*",
-        "postbuild": "postcss public/css/*.css -u autoprefixer cssnano -r --no-map"
+        "dev": "sass --watch --update --style=expanded scss:css", 
+        "prod": "sass --no-source-map --style=compressed scss:css"
     },
-    "dependencies": {
-        "browser-sync": "^2.27.7",
-        "copyfiles": "^2.4.1",
-        "cssnano": "^5.0.17",
-        "npm-run-all": "^4.1.5",
-        "onchange": "^7.1.0",
-        "sass": "^1.49.8"
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sofuslund/frontendmentor.io.git"
+    },
+    "author": "Sofus Lund",
+    "homepage": "",
+    "devDependencies": {
+        "sass": "^1.51.0"
     }
 }
