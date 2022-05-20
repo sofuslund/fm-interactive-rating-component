@@ -5,12 +5,14 @@ $c-neutral-medium-grey: hsl(216, 12%, 54%);
 $c-neutral-dark-blue: hsl(213, 19%, 18%);
 $c-neutral-very-dark-blue: hsl(216, 12%, 8%);
 
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
 body {
     font-size: 15px;
     font-family: 'Overpass', sans-serif;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
     background-color: $c-neutral-very-dark-blue;
     color: $c-neutral-white;
     p {

@@ -1,9 +1,12 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 body {
   font-size: 15px;
   font-family: "Overpass", sans-serif;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
   background-color: hsl(216deg, 12%, 8%);
   color: hsl(0deg, 0%, 100%);
 }
