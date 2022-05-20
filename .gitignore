@@ -17,6 +17,3 @@
 
 node_modules/
 public/
-
-# Generated css
-css/
