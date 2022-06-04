@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: <https://github.com/sofuslund/frontendmentor.io/tree/02-interactive-rating-component>
+- Solution URL: <https://www.frontendmentor.io/solutions/rating-component-built-with-sass-tNzN7_8htn>
 - Live Site URL: <https://02-interactive-rating-component.netlify.app/>
 
 ## My process
